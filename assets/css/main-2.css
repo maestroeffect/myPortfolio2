@@ -266,7 +266,7 @@
 }
 .project-content-area .project-wrapper {
 	background: var(--tj-bg-3);
-	padding: 25px 25px 0 25px;
+	/* padding: 25px 25px 0 25px; */
 	border-radius: 10px;
 	height: 348px;
 	display: inline-flex;
@@ -278,7 +278,7 @@
 	object-fit: cover;
 }
 .project-content-area.featured .project-wrapper {
-	padding: 30px 25px;
+	/* padding: 30px 25px; */
 	height: auto;
 	align-items: center;
 }
@@ -316,8 +316,8 @@
 	color: var(--tj-body);
 }
 .project-content-area.featured .project-left-content .project_tags {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .project-left-content .project_tags {
 	list-style: none;

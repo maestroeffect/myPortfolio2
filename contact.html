@@ -45,15 +45,15 @@
       <div class="preloader-heading">
          <div class="load-text">
             <span>D</span>
-          <span>e</span>
-          <span>c</span>
-          <span>r</span>
-          <span>y</span>
-          <span>p</span>
-          <span>t</span>
-          <span>i</span>
-          <span>n</span>
-          <span>g</span>
+            <span>e</span>
+            <span>c</span>
+            <span>r</span>
+            <span>y</span>
+            <span>p</span>
+            <span>t</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
          </div>
       </div>
    </div>
@@ -79,24 +79,25 @@
                </div>
                <div class="header-info-list d-none d-md-inline-block">
                   <ul class="ul-reset">
-                     <li><a href="mailto:mail@gerolddesign.com">mail@maestroeffect.com</a></li>
+                     <li><a href="mailto:pomokhaiye8@gmail.com">pomokhaiye8@gmail.com</a></li>
                   </ul>
                </div>
                <div class="header-menu" id="headerMenu">
                   <nav>
-                <ul>
-                  <li>
-                    <a class="" href="index.html">Home</a>
-                  </li>
-                  <li><a href="about.html">About Me</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li class="has-dropdown">
-                    <a href="blog.html">Resume</a>
-                  </li>
-                  <li class="current-menu-ancestor"><a class="current-menu-item" href="contact.html">Contact</a></li>
-                </ul>
-              </nav>
+                     <ul>
+                        <li>
+                           <a class="" href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li>
+                           <a href="assets/docs/Precious-CV.pdf" download="my_cv.pdf">Resume</a>
+                        </li>
+                        <li class="current-menu-ancestor"><a class="current-menu-item" href="contact.html">Contact</a>
+                        </li>
+                     </ul>
+                  </nav>
                </div>
                <div class="mobile-menu d-lg-none"></div>
                <div class="header-button">
@@ -125,7 +126,7 @@
                </div>
                <div class="header-info-list d-none d-md-inline-block">
                   <ul class="ul-reset">
-                     <li><a href="mailto:mail@gerolddesign.com">mail@gerolddesign.com</a></li>
+                     <li><a href="mailto:pomokhaiye8@gmail.com">pomokhaiye8@gmail.com</a></li>
                   </ul>
                </div>
                <div class="header-menu">
@@ -221,7 +222,7 @@
                            </ul>
                         </li>
                         <li class="current-menu-item"><a href="contact.html">Contact</a></li>
-                    </ul>
+                     </ul>
                   </nav>
                </div>
                <div class="mobile-menu d-lg-none"></div>
@@ -271,49 +272,61 @@
                   <div class="contact-form-box wow fadeInLeft" data-wow-delay=".3s">
                      <div class="section-header">
                         <h2 class="section-title">Let’s work together!</h2>
-                        <p>I design and code beautifully simple things and i love what i do. Just simple like that!</p>
+                        <p>
+                           I’m a Full-Stack & Mobile Engineer. I build fast, reliable web platforms and cross-platform
+                           apps,
+                           integrate secure APIs, and ship clean, scalable code that grows with your business.
+                        </p>
+
                      </div>
                      <div class="tj-contact-form">
-                        <form id="contact-form">
+                        <form id="contact-form" action="https://formsubmit.co/pomokhaiye8@gmail.com" method="POST">
+                           <!-- FormSubmit config -->
+                           <input type="hidden" name="_subject" value="New message from Maestro_Effect contact form">
+                           <input type="hidden" name="_template" value="table">
+                           <input type="hidden" name="_captcha" value="false">
+                           <!-- Optional: redirect to a thank-you page after submit -->
+                           <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html"> -->
+
                            <div class="row gx-3">
                               <div class="col-sm-6">
                                  <div class="form_group">
-                                    <input type="text" name="conName" id="conName" placeholder="First name"
+                                    <input type="text" name="first_name" id="conName" placeholder="First name"
+                                       autocomplete="off" required />
+                                 </div>
+                              </div>
+                              <div class="col-sm-6">
+                                 <div class="form_group">
+                                    <input type="text" name="last_name" id="conLName" placeholder="Last name"
                                        autocomplete="off" />
                                  </div>
                               </div>
                               <div class="col-sm-6">
                                  <div class="form_group">
-                                    <input type="text" name="conLName" id="conLName" placeholder="Last name"
-                                       autocomplete="off" />
+                                    <input type="email" name="email" id="conEmail" placeholder="Email address"
+                                       autocomplete="off" required />
                                  </div>
                               </div>
                               <div class="col-sm-6">
                                  <div class="form_group">
-                                    <input type="email" name="conEmail" id="conEmail" placeholder="Email address"
-                                       autocomplete="off" />
-                                 </div>
-                              </div>
-                              <div class="col-sm-6">
-                                 <div class="form_group">
-                                    <input type="tel" name="conPhone" id="conPhone" placeholder="Phone number"
+                                    <input type="tel" name="phone" id="conPhone" placeholder="Phone number"
                                        autocomplete="off" />
                                  </div>
                               </div>
                               <div class="col-12">
                                  <div class="form_group">
-                                    <select name="conService" id="conService" class="tj-nice-select">
+                                    <select name="service" id="conService" class="tj-nice-select" required>
                                        <option value="" selected disabled>Choose Service</option>
-                                       <option value="braning">Branding Design</option>
-                                       <option value="web">Web Design</option>
-                                       <option value="uxui">UI/UX Design</option>
-                                       <option value="app">App Design</option>
+                                       <option value="web-development">Web Development</option>
+                                       <option value="mobile-applications">Mobile Applications</option>
+                                       <option value="full-stack-project">Full-Stack Project</option>
+                                       <option value="api-integrations">API Integrations</option>
                                     </select>
                                  </div>
                               </div>
                               <div class="col-12">
                                  <div class="form_group">
-                                    <textarea name="conMessage" id="conMessage" placeholder="Message"></textarea>
+                                    <textarea name="message" id="conMessage" placeholder="Message" required></textarea>
                                  </div>
                               </div>
                               <div class="col-12">
@@ -323,6 +336,7 @@
                               </div>
                            </div>
                         </form>
+
                      </div>
                   </div>
                </div>
@@ -336,7 +350,7 @@
                            </div>
                            <div class="text-box">
                               <p>Phone</p>
-                              <a href="tel:0123456789">+01 123 654 8096</a>
+                              <a href="tel:0123456789">+2347046787905</a>
                            </div>
                         </li>
                         <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
@@ -346,7 +360,8 @@
                            </div>
                            <div class="text-box">
                               <p>Email</p>
-                              <a href="mailto:mail@mail.com">gerolddesign@mail.com</a>
+                              <a href="mailto:pomokhaiye8@gmail.com">pomokhaiye8@gmail.com</a>
+
                            </div>
                         </li>
                         <li class="d-flex flex-wrap align-items-center position-relative wow fadeInRight"
@@ -356,8 +371,15 @@
                            </div>
                            <div class="text-box">
                               <p>Address</p>
-                              <a href="#">Warne Park Street Pine, <br />FL 33157, New York</a>
+                              <a href="https://www.google.com/maps/place/Igbogbo,+Ikorodu,+Lagos" target="_blank">
+                                 No.17 Shalom House, Awobo Estate, <br />Igbogbo-Ikorodu, Lagos
+                              </a>
+                              <br /><br />
+                              <a href="https://www.google.com/maps/place/FUTA+South+Gate,+Akure,+Ondo" target="_blank">
+                                 Stateline Junction, FUTA South Gate, <br />Akure, Ondo State
+                              </a>
                            </div>
+
                         </li>
                      </ul>
                   </div>
@@ -387,8 +409,9 @@
                   </nav>
                </div>
                <div class="copy-text style-2">
-                  <p>&copy; 2024 All rights reserved by <a href="#" target="_blank">ThemeJunction</a></p>
+                  <p>&copy; 2025 All rights reserved by <a href="#" target="_blank">Maestro_Effect</a></p>
                </div>
+
             </div>
          </div>
       </div>
